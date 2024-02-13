@@ -13,7 +13,7 @@ def send_to_slack():
 
     # Replace 'YOUR_SLACK_WEBHOOK_URL' with your actual Slack webhook URL
     # slack_webhook_url = 'YOUR_SLACK_WEBHOOK_URL'
-    slack_webhook_url = 'https://hooks.slack.com/services/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'
+    slack_webhook_url = 'YOUR_SLACK_WEBHOOK_URL'
 
     payload = {
         'text': f'Slack ID: {slack_id}'
