@@ -4,7 +4,7 @@ import requests
 url = 'http://127.0.0.1:5000/send-to-slack'
 
 payload = {
-    'AiOps' : 'Message from AIOps to Andreas!'
+    'slack_id' : 'Message from AIOps to Andreas!'
 }
 
 response = requests.post(url, json=payload)
@@ -16,3 +16,4 @@ if response.status_code == 200:
 else:
     # Print an error message if the request was not successful
     print(f"Error: {response.status_code}")
+    print(response.text)  
