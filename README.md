@@ -25,9 +25,9 @@ pip     23.2.1
 Your zsh prompt should so the activated virtual environment name - below on the right hand side:
 ![image](https://github.com/aspanner/AIOps/assets/16040521/769659ec-b9d3-4249-8485-1fef1af5e493)
 
+Then upgrade your pip via ` pip install --upgrade pip `
 
-
-Then run 'stream lit run app.py' from this folder.
+Then run ` streamlit run app.py ` from this folder.
 
 
 
