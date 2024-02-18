@@ -31,7 +31,8 @@ Then run 'stream lit run app.py' from this folder.
 
 
 
-- Further work:
+# Additional non-core items
+#Slack Integration
 To Run the Flask application:
     
      python slack-api.py
