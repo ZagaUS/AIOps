@@ -3,9 +3,9 @@
 Global engineering AI Combinator Hackathon
 
 To get things run you need to clone this repo, download the model from hf (hugging face) as descried in the model operations folder.
+If you get stuck with the model you can download the quantized version directly from hf from ` https://huggingface.co/aspanner/llama-2-7b-aiopsfinetuned-q8_0-gguf `
 
-- Recommended
-I recommend to create and activea a python virtual environment, as llama.cpp, huggingface, streamlit an other components might clash.
+- I recommend to create and activea a python virtual environment, as llama.cpp, huggingface, streamlit an other components might clash.
 To do that run (aiopsVE is the name of my virttual environment(VE):
 ' python3.12 -m venv aiopsVE '
 and then activate it with
@@ -35,9 +35,7 @@ Then run ` streamlit run app.py ` from this folder and you should be greeted by 
 
 # Additional non-core items
 #Slack Integration
-To Run the Flask application:
-    
-     python slack-api.py
+I've moved all the slack integration work into the subfolder 'slack_integration'
 
 To send slack message : 
 
