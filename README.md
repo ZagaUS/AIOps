@@ -27,8 +27,10 @@ Your zsh prompt should so the activated virtual environment name - below on the 
 
 Then upgrade your pip via ` pip install --upgrade pip `
 
-Then run ` streamlit run app.py ` from this folder.
+Then run ` pip install -r requirements.txt `
 
+Then run ` streamlit run app.py ` from this folder and you should be greeted by a UI like this:
+![image](https://github.com/aspanner/AIOps/assets/16040521/1ae164b6-6e69-4663-aa16-3daae475d769)
 
 
 # Additional non-core items
