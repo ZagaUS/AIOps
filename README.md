@@ -5,7 +5,7 @@ Global engineering AI Combinator Hackathon
 To get things run you need to clone this repo, download the model from hf (hugging face) as descried in the model operations folder.
 If you get stuck with the model you can download the quantized version directly from hf from ` https://huggingface.co/aspanner/llama-2-7b-aiopsfinetuned-q8_0-gguf `
 
-- I recommend to create and activea a python virtual environment, as llama.cpp, huggingface, streamlit an other components might clash.
+- I recommend to create and activea a python virtual environment, as llama.cpp, huggingface, streamlit an other components might clash with things you already got installed.
 To do that run (aiopsVE is the name of my virttual environment(VE):
 ' python3.12 -m venv aiopsVE '
 and then activate it with
@@ -22,7 +22,7 @@ pip     23.2.1
 [notice] A new release of pip is available: 23.2.1 -> 24.0
 [notice] To update, run: pip install --upgrade pip
 ```
-Your zsh prompt should so the activated virtual environment name - below on the right hand side:
+Your zsh prompt should show the activated virtual environment name - below on the right hand side:
 ![image](https://github.com/aspanner/AIOps/assets/16040521/769659ec-b9d3-4249-8485-1fef1af5e493)
 
 Then upgrade your pip via ` pip install --upgrade pip `
