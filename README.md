@@ -48,7 +48,7 @@ Then run ` streamlit run app.py ` from this folder and you should be greeted by 
 Other (non mandatory to run the WebUI) components are the logfile scraper and other data engineering script we used (in the data folder).
 There is also a helper python script that helps you to download the model.
 
-I also committed the MicroShit logfiles if you'd like to improve the data engineering, add more data or remove more duplicates, timestamps or any other noise.
+I also committed the MicroShift logfiles if you'd like to improve the data engineering, add more data or remove more duplicates, timestamps or any other noise.
 
 
 # Additional non-core items
