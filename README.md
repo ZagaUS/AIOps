@@ -1,6 +1,15 @@
 # AIOps
 
-Global engineering AI Combinator Hackathon
+As part our 2024 Global engineering AI Combinator Hackathon I submitted the idea to create AI aided support for our platforms like OpenShift (including SNO), RHEL (incl RHDE) and MicroShift.
+The process was to follow the recommended way for any AI project to go end-to-end and not just focusing on one particular area. So we went through Data Engineering -> Model Training -> Model Deployment and running inference.
+![image](https://github.com/aspanner/AIOps/assets/16040521/1b8ffce8-c078-4d35-b749-0895ddef4909)
+
+We went through several architecture iterations, with each iteration making it simpler in order to be able to finish a run-through end-to-end.
+We ended up with this architecture which the implementation of this repository represents:
+![image](https://github.com/aspanner/AIOps/assets/16040521/73d57978-dbfd-4a16-ab12-9e5c3d7a5eac)
+
+
+
 
 To get things run you need to clone this repo, download the model from hf (hugging face) as descried in the model operations folder.
 If you get stuck with the model you can download the quantized version directly from hf from ` https://huggingface.co/aspanner/llama-2-7b-aiopsfinetuned-q8_0-gguf `
