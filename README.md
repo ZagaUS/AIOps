@@ -1,6 +1,8 @@
 # AIOps
 
 As part our 2024 Global engineering AI Combinator Hackathon I submitted the idea to create AI aided support for our platforms like OpenShift (including SNO), RHEL (incl RHDE) and MicroShift.
+This is what we call AIOps - an AI aided operations support for preventative, pre-emptive and reactive break fix support.
+
 The process was to follow the recommended way for any AI project to go end-to-end and not just focusing on one particular area. So we went through Data Engineering -> Model Training -> Model Deployment and running inference.
 ![image](https://github.com/aspanner/AIOps/assets/16040521/1b8ffce8-c078-4d35-b749-0895ddef4909)
 
