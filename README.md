@@ -6,7 +6,8 @@ The process was to follow the recommended way for any AI project to go end-to-en
 
 We went through several architecture iterations, with each iteration making it simpler in order to be able to finish a run-through end-to-end.
 We ended up with this architecture which the implementation of this repository represents:
-![image](https://github.com/aspanner/AIOps/assets/16040521/73d57978-dbfd-4a16-ab12-9e5c3d7a5eac)
+![image](https://github.com/aspanner/AIOps/assets/16040521/eec3314a-8e1a-4902-877e-0407c2586b8f)
+
 
 
 
